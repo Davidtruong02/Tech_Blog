@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
     <title>The Tech Blog</title>
 </head>
 <body>
@@ -12,10 +12,15 @@
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/dashboard">Dashboard</a></li>
+                <li><a href="/">Dashboard</a></li>
                 <li><a href="/login">Login</a></li>
                 <li><a href="/logout">Logout</a></li>
+
             </ul>
         </nav>
+    </header>
+    <main>
+        {{{body}}} <!-- This is where the content for each page will be injected -->
+    </main>
 </body>
 </html>

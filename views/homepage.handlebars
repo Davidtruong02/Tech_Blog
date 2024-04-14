@@ -1,0 +1,7 @@
+<div class ="posts">
+    <div class="card" col-5 m-2 align-items center p-2>
+        <h2 class="card-title">Homepage</h2>
+        {{#each posts as |posts|}}
+        {{> postcard post}}
+        {{/each}}
+</div>
